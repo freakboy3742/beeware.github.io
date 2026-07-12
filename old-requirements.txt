@@ -1,3 +1,6 @@
+# 2026-07-12 This file was renamed to `old-requirements.txt` in the hope
+# that Dependabot would stop paying attention to it, since this is a 
+# dead branch kept for archival purposes.
 Lektor==3.3.12
 # Pinned dependencies.
 # These are pinned because they're versions that are known to work
