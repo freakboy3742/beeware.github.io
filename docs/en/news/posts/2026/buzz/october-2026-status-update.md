@@ -36,7 +36,7 @@ October has been a busy month of releases and security updates - but we also fou
 - We [improved error handling when a Windows machine has the bootstrap binary for Visual Studio, but hasn't installed the Visual Studio IDE](https://github.com/beeware/briefcase/pull/3090).
 - We added new [`toga-code-editor`](https://github.com/beeware/toga-code-editor) and [`toga-console`](https://github.com/beeware/toga-console) widgets. These widgets allow building apps that display code, or need to display console output.
 - We modified Toga to [recognize official external widgets by their package metadata](https://github.com/beeware/toga/pull/4766).
-- We [ensured that canvas resize events are only triggered once](https://github.com/beeware/toga/pull/4843), avoiding potential infinite recursion on macOS, iOS, Android and Qt.
+- We [ensured that canvas resize events are only triggered once](https://github.com/beeware/toga/pull/4843), avoiding potential infinite recursion on macOS, iOS, Android, and Qt.
 - We [fixed a memory leak when loading images on GTK](https://github.com/beeware/toga/pull/4814).
 - We [fixed a hang in GTK's `MultilineTextInput`](https://github.com/beeware/toga/pull/4743).
 - We [made Pack layouts honor `display=none`, and corrected the handling of the `hidden` style argument on GTK3](https://github.com/beeware/toga/pull/4768).
